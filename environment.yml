@@ -1,0 +1,11 @@
+name: unitystarter
+channels:
+  - default
+  - anaconda
+dependencies:
+  - pip
+  - python>3.6
+  - pip:
+    - protobuf<=3.20.x  # For fixing conflict
+    - mlagents==0.30.0
+    - mlagents-envs==0.30.0
