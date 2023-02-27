@@ -19,7 +19,7 @@ Create a new 3D project in Unity. You can name it `UnityStarter` and place it un
 
 Open your project, in the `Project` window, 
 right click the `Assets` folder and 
-choose `Import Package --> Custom Package`. Select `unitystarter.unitypackage`.
+choose `Import Package --> Custom Package`. Select `uniyt/unitystarter.unitypackage`.
 
 Now you can build your package by going to `File --> Build and Run`. Save the built binary at 
 `unity/UnityStarter/unitystarter.app`.
