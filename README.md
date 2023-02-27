@@ -22,7 +22,8 @@ Open your project, in the `Project` window,
 right click the `Assets` folder and 
 choose `Import Package --> Custom Package`. Select `unity/unitystarter.unitypackage`. You will probably need to go up one level in the file hierarchy to find this.
 
-Now go to `Window --> Package Manager`, then search and install the `ml-agents` package.
+Now go to `Window --> Package Manager`, 
+change `Packages: In Project` to `Packages: Unity Registry`, then search and install the `ml-agents` package.
 
 Now you can build your package by going to `File --> Build and Run`. Save the built binary at 
 `unity/UnityStarter/unitystarter.app`.
