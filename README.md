@@ -20,7 +20,7 @@ Create a new 3D project in Unity. You can name it `UnityStarter` and place it un
 #### Import packages
 Open your project, in the `Project` window, 
 right click the `Assets` folder and 
-choose `Import Package --> Custom Package`. Select `unity/unitystarter.unitypackage`.
+choose `Import Package --> Custom Package`. Select `unity/unitystarter.unitypackage`. You will probably need to go up one level in the file hierarchy to find this.
 
 Now go to `Window --> Package Manager`, then search and install the `ml-agents` package.
 
