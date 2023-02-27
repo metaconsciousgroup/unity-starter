@@ -3,7 +3,7 @@ from mlagents_envs.environment import UnityEnvironment
 from mlagents_envs.envs.unity_gym_env import UnityToGymWrapper
 
 # Location of the Unity binary
-FILENAME = "./unity/CareBot3D/carebot3d.app"
+FILENAME = "./unity/UnityStarter/unitystarter.app"
 
 # Build env and convert to Gym env
 unity_env = UnityEnvironment(file_name=FILENAME, seed=1, side_channels=[])
