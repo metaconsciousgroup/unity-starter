@@ -6,9 +6,9 @@ If you haven't done so, download Unity (https://unity.com/download)
 
 
 ### Python dependencies
-Create conda virtual environment by running in command line
+Create conda virtual environment by running in command line. Note that Python version higher than 3.9 doesn't work right now.
 
-```conda env create -f environment.yml```
+```conda env create -f environment.yml python=3.9```
 
 Activate the virtual environment `unitystarter` by running
 
